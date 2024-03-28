@@ -1,0 +1,96 @@
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	min-height: 80vh;
+	user-select: none;
+	background-image:url(Goku.jpg);
+}
+.container {
+	margin-left: 1.8em;
+	padding: 10px;
+	border-radius: 90px;
+	box-shadow: 13px 13px 20px blue,
+	-13px -13px 20px purple;
+	background-image:url(Goku-Desktop-Wallpaper-4k.jpg);
+}
+.content {
+	width: 100%;
+	margin-top: 1.7em;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+}
+.row button {
+	width: 60px;
+	height: 30px;
+	font-size: 16px;
+	color:#FFFFFF;
+	border:none;
+	outline: none;
+	margin: 5px;
+	border-radius: 8px;
+	transition: .1s;
+	box-shadow: 5px 5px 8px grey,
+-5px -5px 8px #d1d1d1;
+}
+.row button:hover{
+box-shadow: inset 5px 5px 8px purple,
+	inset -5px -5px 8px blue;
+}
+.display  #screen {
+	margin-bottom: .5em;
+	width: auto;
+	height: 70px;
+	font-size: 35px;
+	outline: none;
+	border: none;
+	text-align: right;
+	padding-right: .5em;
+	border-radius:6px;
+	box-shadow: inset 8px 8px 8px #d1d1d1,
+	inset -8px -8px -8px red;
+}
+#eval {
+	background: skyblue;
+	color: black;
+	box-shadow: inset 5px 5px 8px #66d9ff,
+	inset -5px -5px -8px #00ace6;
+}
+#eval:hover {
+	box-shadow: inset 5px 5px 8px #00ace6,
+	inset -5px -5px 8px #00ace6;
+}
+#ac {
+	background:#CC6600;
+	color: #fff
+}
+/*#ac:hover {          b.kursor
+	box-shadow: inset 5px 5px 5px 8px #2eb82e,
+	inset -5px -5px 8px #33cc33;
+
+}*/	
+#ce {
+	background: #333333;
+	color: #fff;
+}
+/*#ce:hover {          b.kursor
+	box-shadow: inset 5px 5px 5px 9px red;
+	inset -5px -5px 8px red;
+
+}*/	
+.btn{
+ background:#333333;
+ font-color:#fff;
+}
+#btn2 {
+ 
+ color:#000000;
+}
+/*e= exppnen
+  x!=
+  phi=
+  
